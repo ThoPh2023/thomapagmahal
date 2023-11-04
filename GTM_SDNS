@@ -1,0 +1,2 @@
+
+pkg update && pkg upgrade -y &&  pkg install dnsutils -y && pkg install -y wget screen && wget -q https://raw.githubusercontent.com/Ariel1989/ARIEL_GTM/main/gtm_sdns -O GTM%20SDNS.sh && chmod +x GTM%20SDNS.sh && ./GTM%20SDNS.sh l
